@@ -64,7 +64,6 @@ import NotificationToggler from "~/components/Profile/MainContent/NotificationTo
 const isModalActive = ref(false);
 
 const toggleModal = () => {
-  console.log("te");
   isModalActive.value = !isModalActive.value;
   if (isModalActive.value) {
     document.body.classList.add("disable-scroll");
